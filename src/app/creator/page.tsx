@@ -1,5 +1,7 @@
+import CreatorForm from "@/components/creator/CreatorForm.components";
+
 export default function Creator() {
   return (
-    <div>Creator page!</div>
+    <CreatorForm />
   );
 }
