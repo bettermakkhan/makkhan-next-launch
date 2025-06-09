@@ -27,7 +27,7 @@ const BusinessForm: React.FC = () => {
         >
           We’re not an agency. We’re the stage.
         </p>
-        <p style={{ marginTop: "0", color: "#616670" }}>
+        <p style={{ color: "#616670", marginTop: "0" }}>
           An attempt to build a clean, clutter-free platform where creators and
           businesses connect with zero friction, full trust, and pure
           discoverability. When ideas meet opportunity - that's the Makkhan
