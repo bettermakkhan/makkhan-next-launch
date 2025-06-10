@@ -1,5 +1,5 @@
 import React from "react";
-import { Select, Tag } from "antd";
+import { Tag } from "antd";
 import type { SelectProps } from "antd";
 
 type TagRender = SelectProps["tagRender"];

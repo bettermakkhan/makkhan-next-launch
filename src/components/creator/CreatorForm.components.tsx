@@ -1,13 +1,11 @@
 "use client";
 
 import React from "react";
-import { Form, Input, Select, Button, Typography, Space, Divider } from "antd";
+import { Form, Input, Select, Button, Typography, Divider } from "antd";
 import { PlusOutlined } from "@ant-design/icons";
 
 const { Title } = Typography;
 const { TextArea } = Input;
-
-type CreatorFormProps = {};
 
 const CreatorForm: React.FC = () => {
   const [form] = Form.useForm();

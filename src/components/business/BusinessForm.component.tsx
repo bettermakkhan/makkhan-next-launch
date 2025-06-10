@@ -8,8 +8,6 @@ import { tagRender } from "@utils/formHelpers";
 const { Title } = Typography;
 const { TextArea } = Input;
 
-type CreatorFormProps = {};
-
 const BusinessForm: React.FC = () => {
   const [form] = Form.useForm();
 
