@@ -103,12 +103,12 @@ const CreatorForm: React.FC = () => {
         </Title>
 
         <Form.Item
-          label="Pick your playground. What space does your brand play in?"
+          label="Pick your turf, what kind of content do you create?"
           name="category"
         >
           <span>
             <p style={{ color: "#616670" }} className="pb-2">
-              Choose whatever fits :)
+              (Choose 1 or up to 5 or all it's completely up to you!)
             </p>
             <Select
               size="large"
@@ -123,29 +123,29 @@ const CreatorForm: React.FC = () => {
                   .includes(input.toLowerCase())
               }
               options={[
-                { value: "Fashion & Apparel", label: "Fashion & Apparel" },
+                { value: "Fashion & Styling", label: "Fashion & Styling" },
                 { value: "Beauty & Skincare", label: "Beauty & Skincare" },
                 { value: "Fitness & Wellness", label: "Fitness & Wellness" },
-                { value: "Food & Beverage", label: "Food & Beverage" },
+                { value: "Lifestyle", label: "Lifestyle" },
                 {
-                  value: "Travel & Experiences",
-                  label: "Travel & Experiences",
+                  value: "Travel & Outdoors",
+                  label: "Travel & Outdoors",
                 },
                 {
-                  value: "Sustainable & Purpose-Led",
-                  label: "Sustainable & Purpose-Led",
+                  value: "Comedy & Skits",
+                  label: "Comedy & Skits",
                 },
-                { value: "Lifestyle & Home", label: "Lifestyle & Home" },
+                { value: "Finance & Hustles", label: "Finance & Hustles" },
                 {
-                  value: "Art, Culture & Design",
-                  label: "Art, Culture & Design",
+                  value: "Home Decor & DIY",
+                  label: "Home Decor & DIY",
                 },
                 {
-                  value: "Tech or Digital Tools",
-                  label: "Tech or Digital Tools",
+                  value: "Art & Design",
+                  label: "Art & Design",
                 },
-                { value: "Events or Gifting", label: "Events or Gifting" },
-                { value: "Premium products", label: "Premium products" },
+                { value: "Photography & Visuals", label: "Photography & Visuals" },
+                { value: "Mindset, Love & Real Talk", label: "Mindset, Love & Real Talk" },
               ]}
             />
           </span>
@@ -156,7 +156,7 @@ const CreatorForm: React.FC = () => {
         </Form.Item>
 
         <Form.Item
-          label="What's the collab vibe that you would be looking for?"
+          label="What kind of butter smooth collabs would make you say ‘yes, this is me’?"
           name="collab_vibe"
         >
           <span>
@@ -208,13 +208,12 @@ const CreatorForm: React.FC = () => {
         </Form.Item>
 
         <Form.Item
-          label="What's your ideal project turnaround time?"
+          label="How long do you usually take to wrap up a project?"
           name="turnaround_time"
         >
           <span>
             <p style={{ color: "#616670" }} className="pb-2">
-              So we can match you with creators who can sync with your timelines
-              🧈⌛
+              Just give us a ballpark, no pressure 🧈⌛
             </p>
             <Select
               size="large"
@@ -238,13 +237,12 @@ const CreatorForm: React.FC = () => {
         </Form.Item>
 
         <Form.Item
-          label="How involved would you like to be in the content creation process?"
+          label="What's the level of creative freedom that you'd desire?"
           name="business_involvement"
         >
           <span>
             <p style={{ color: "#616670" }} className="pb-2">
-              Setting the expectations so we know what creators may work best
-              for you!
+              Pick as many as you like
             </p>
             <Select
               size="large"
@@ -259,18 +257,18 @@ const CreatorForm: React.FC = () => {
                   .includes(input.toLowerCase())
               }
               options={[
-                { value: "A detailed brief", label: "A detailed brief" },
+                { value: "A full brief or script", label: "A full brief or script" },
                 {
-                  value: "Trusting the creator entirely",
-                  label: "Trusting the creator entirely",
+                  value: "Certain brand pointers",
+                  label: "Certain brand pointers",
                 },
                 {
-                  value: "Full script given by you",
-                  label: "Full script given by you",
+                  value: "Completely independent creation",
+                  label: "Completely independent creation",
                 },
                 {
-                  value: "Happy to co-create and brainstorm",
-                  label: "Happy to co-create and brainstorm",
+                  value: "50-50, brand and creator inputs",
+                  label: "50-50, brand and creator inputs",
                 },
               ]}
             />
