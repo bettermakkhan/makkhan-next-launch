@@ -23,6 +23,7 @@
       "@utils/*": ["./src/utils/*"],
       "@pages/*": ["./src/pages/*"],
       "@contexts/*": ["./src/app/*"],
+      "@app/*": ["./src/app/*"],
       "@components/*": ["./src/components/*"]
     },
   },
