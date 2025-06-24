@@ -24,8 +24,8 @@ const CreatorForm: React.FC = () => {
         <Title level={2}>🧈Makkhan for Creators</Title>
         <div>
           <p
-            style={{ marginBottom: "2px", color: "#616670" }}
             className="font-semibold"
+            style={{ marginBottom: "2px", color: "#616670" }}
           >
             We’re not an agency. We’re the stage.
           </p>
