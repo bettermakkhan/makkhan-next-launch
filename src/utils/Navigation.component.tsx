@@ -17,7 +17,7 @@ const Navigation: React.FC = () => (
       <div className="text-xl font-bold mr-8">
         <Link href="/">🧈 Makkhan</Link>
       </div>
-      <div className="flex items-center gap-4 ml-auto">
+      <div className="flex items-center gap-4 ml-auto cursor-pointer">
         <SignedOut>
           <SignInButton mode="modal" />
         </SignedOut>
